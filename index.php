@@ -74,7 +74,7 @@
           <li><a href="#">Privacy Policy</a></li>
           <li><a href="#">Terms of Service</a></li>
           <li><a href="#">Technologies</a></li>
-          <li class="active"><a href="#">FAQ</a></li>
+          <li class="active"><a class="active" href="#">FAQ</a></li>
         </ul>
       </div>
     </header>

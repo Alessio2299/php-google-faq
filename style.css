@@ -7,13 +7,15 @@
   display: flex;
 }
 header{
-  width: 97%;
-  margin: auto;
   padding-top: 20px;
+  border-bottom: 1px solid gray;
 }
 .top-header{
+  width: 97%;
+  margin: auto;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 15px;
 }
 .title-logo{
   align-items: flex-end;
@@ -43,4 +45,28 @@ header{
 }
 .menu i {
   font-size: 22px;
+}
+.bottom-header{
+  width: 97%;
+  margin: auto;
+}
+.bottom-header ul{
+  display: flex;
+  list-style: none;
+}
+ul li{
+  margin-right: 40px;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+ul li a{
+  text-decoration: none;
+  color: gray;
+  padding-bottom: 10px;
+}
+a.active{
+  color: cornflowerblue;
+}
+li.active{
+  border-bottom: 3px solid cornflowerblue;
 }
