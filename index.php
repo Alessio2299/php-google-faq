@@ -97,5 +97,21 @@
         ?>
       </div>
     </main>
+    <footer>
+      <div class="flex container-footer">
+          <ul>
+            <li><a href="#">Google</a></li>
+            <li><a href="#">About Google</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+          <select name="language" id="language">
+            <option value="Italiano">Italiano</option>
+            <option value="Spagnolo">Spagnolo</option>
+            <option value="Inglese">Inglese</option>
+            <option value="Tedesco">Tedesco</option>
+          </select>
+      </div>
+    </footer>
   </body>
 </html>
