@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Google Sans',sans-serif;
 }
 .flex{
   display: flex;
@@ -54,6 +55,7 @@ header{
 }
 .menu i {
   font-size: 22px;
+  color: gray;
 }
 .bottom-header{
   width: 97%;
@@ -74,10 +76,10 @@ ul li a{
   padding-bottom: 10px;
 }
 a.active{
-  color: cornflowerblue;
+  color: #3367d6;
 }
 li.active{
-  border-bottom: 3px solid cornflowerblue;
+  border-bottom: 3px solid #3367d6;
 }
 .container{
   width: 69%;
@@ -100,4 +102,11 @@ main h2{
 .question ol li{
   padding-left: 15px;
   margin-bottom: 30px;
+}
+main a{
+  text-decoration: none;
+  color: #3367d6;
+}
+main a:visited{
+  color: #3367d6;
 }
